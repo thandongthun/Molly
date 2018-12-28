@@ -3,3 +3,43 @@
 	padding: 0;
 	font-family: 'Lato', sans-serif;
 }
+.container {
+	max-width: 1250px;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	margin: 0;
+}
+ul::after {
+	content: '';
+	display: table;
+	clear: both;	
+}
+.top-header-content {
+	background: #ef1864;
+}
+.top-header-content ul li{
+	list-style: none;
+	float: left;
+}
+.top-header-content ul li a {
+	font-size: 13px;
+	color: #fff;
+}
+.top-custom-link {
+	padding-top: 14px;
+	padding-bottom: 14px}
+.custom-link ul li {
+	border-left: 1px solid #fff;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.custom-link ul li:first-child {
+	border-left: none;
+	padding-left: 0;
+}
+.custom-link ul li span {
+	padding-right: 20px;
+}
